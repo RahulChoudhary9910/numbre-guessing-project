@@ -1,4 +1,4 @@
-# numbre-guessing-project
+# number-guessing-project
 Number guessing game 
 
 style file contains   CSS properties used
