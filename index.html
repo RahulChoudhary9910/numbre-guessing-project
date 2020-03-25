@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Number guessing game</title>
+    </head>
+<style>
+body {
+  background-color:grey;
+  /*background-image: url('IMG_20191228_175221_094.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;*/
+
+}
+</style>
+  <body>
+    <h1>Number guessing game</h1>
+
+    <p>We have selected a random number.. See if you can guess it right. We'll tell the warmness of your guess depending on how near your guess is to the actual number.</p>
+    <p class="range"></p>
+    <div class="form">
+      <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

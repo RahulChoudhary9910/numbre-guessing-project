@@ -1,0 +1,14 @@
+html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 50%;
+        max-width: 800px;
+        min-width: 480px;
+        margin: 0 auto;
+        background-image: <img src="C:\Users\Rc191\Desktop\IMG_20191228_175221_094.png">;
+      }
+      .lastResult {
+        color: white;
+        padding: 3px;
+      }
